@@ -1,0 +1,13 @@
+name: Skrzynki
+version: 1.0.0
+main: pl.skrzynki.Skrzynki
+api-version: '1.21'
+description: Skrzynki z animacja, kluczami i kreatorem
+commands:
+  skrzynka:
+    description: Zarzadzanie skrzynkami
+    aliases: [skrzynki, crate]
+permissions:
+  skrzynki.admin:
+    description: Dostep do komend administracyjnych
+    default: op
